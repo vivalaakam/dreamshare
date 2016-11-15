@@ -1,0 +1,75 @@
+.Partner {
+  flex: 1 0 0;
+  text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1 0 50%;
+    margin-bottom: 35px;
+  }
+
+  .wrapper {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .photoWrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    display: inline-block;
+    margin-bottom: 17px;
+  }
+
+  .photo {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .iconWrapper {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    padding: 3px;
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .fly {
+    background-image: url(./fly.svg);
+  }
+
+  .draw {
+    background-image: url(./draw.svg);
+  }
+
+  .music {
+    background-image: url(./music.svg);
+  }
+
+  .photo {
+    background-image: url(./photo.svg);
+  }
+
+  .name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #444444;
+    font-size: 14px;
+    margin: 12px 0px;
+  }
+
+  .desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 300;
+  }
+}

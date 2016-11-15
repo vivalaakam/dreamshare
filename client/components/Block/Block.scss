@@ -25,10 +25,5 @@ $phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px)
   }
 
   .content {
-    display: flex;
-
-    @media #{$phone} {
-      flex-direction: column;
-    }
   }
 }

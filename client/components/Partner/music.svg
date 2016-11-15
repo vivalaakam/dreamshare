@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dreamshare_desktop" transform="translate(-388.000000, -1500.000000)">
+            <g id="Meet-partner" transform="translate(249.000000, 1351.000000)">
+                <g id="Person" transform="translate(0.000000, 61.000000)">
+                    <g id="Avatar" transform="translate(51.000000, 0.000000)">
+                        <g id="Group" transform="translate(88.000000, 88.000000)">
+                            <circle id="Oval-2" fill="#FF4E50" cx="16" cy="16" r="16"></circle>
+                            <g id="entypo/music2" transform="translate(8.000000, 8.000000)">
+                                <rect id="Rectangle-path" x="0" y="0" width="16" height="15.9992"></rect>
+                                <path d="M5.076,2.1712 L5.076,11.5712 C4.564,11.464 3.9688,11.5048 3.3784,11.7232 C2.0496,12.2168 1.5808,13.4176 1.9328,14.4048 C2.2848,15.3928 3.3248,15.792 4.6528,15.2984 C5.7808,14.88 6.52,13.9504 6.5016,13.0752 L6.5016,5.3104 L12.1256,4.0216 L12.1256,9.9864 C11.6128,9.88 11.0176,9.92 10.4272,10.1392 C9.0992,10.6328 8.6304,11.8336 8.9824,12.8208 C9.3336,13.8088 10.3736,14.208 11.7016,13.7152 C12.8304,13.296 13.5688,12.3664 13.5512,11.492 L13.5512,0.3504 L5.076,2.1712 L5.076,2.1712 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

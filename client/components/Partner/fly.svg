@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dreamshare_desktop" transform="translate(-1108.000000, -1500.000000)">
+            <g id="Meet-partner" transform="translate(249.000000, 1351.000000)">
+                <g id="Person-Copy-3" transform="translate(720.000000, 61.000000)">
+                    <g id="Avatar" transform="translate(51.000000, 0.000000)">
+                        <g id="Group-4" transform="translate(88.000000, 88.000000)">
+                            <circle id="Oval-2" fill="#667DF3" cx="16" cy="16" r="16"></circle>
+                            <g id="entypo/airplane" transform="translate(17.500000, 16.000000) rotate(-30.000000) translate(-17.500000, -16.000000) translate(9.000000, 8.000000)">
+                                <rect id="Rectangle-path" x="0" y="0" width="16" height="16"></rect>
+                                <path d="M4.4536,15.0584 L6.0376,15.0584 L9.592,8.7216 L13.6816,8.7216 C13.6816,8.7216 16.0576,8.7216 16.0576,7.6128 C16.0576,6.5032 13.6816,6.5032 13.6816,6.5032 L9.592,6.5032 L6.0376,0.1672 L4.4536,0.1672 L6.424,6.5032 L3.5832,6.5032 L1.8008,4.9192 L0.2168,4.9192 L1.484,7.6128 L0.2168,10.3056 L1.8008,10.3056 L3.5832,8.7216 L6.424,8.7216 L4.4536,15.0584 L4.4536,15.0584 Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

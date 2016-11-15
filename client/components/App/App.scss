@@ -1,3 +1,42 @@
+$phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)";
+
 .App {
   position: relative;
+
+  .howItWorks {
+    display: flex;
+
+    @media #{$phone} {
+      flex-direction: column;
+    }
+  }
+
+  .partners {
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+    @media #{$phone} {
+      flex-direction: column;
+    }
+  }
+
+  .navigation {
+    text-align: center;
+    .btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      border: 2px solid #FF4E50;
+      background-color: transparent;
+      color: #FF4E50;
+      padding: 11px 24px;
+      border-radius: 40px;
+      &:hover {
+        cursor: pointer;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
 }
