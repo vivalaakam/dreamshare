@@ -1,0 +1,34 @@
+$phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)";
+
+.Block {
+  margin-top: 60px;
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+
+  @media #{$phone} {
+    margin-top: 20px;
+  }
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #444444;
+    margin: 35px 0px;
+    text-align: center;
+
+    @media #{$phone} {
+      margin: 15px 0px;
+    }
+  }
+
+  .content {
+    display: flex;
+
+    @media #{$phone} {
+      flex-direction: column;
+    }
+  }
+}
