@@ -3,7 +3,7 @@ $phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px)
 .App {
   position: relative;
 
-  .howItWorks {
+  .howItWorks, .ideas, .partners {
     display: flex;
 
     @media #{$phone} {
@@ -12,13 +12,12 @@ $phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px)
   }
 
   .partners {
-    display: flex;
     margin-bottom: 40px;
     flex-wrap: wrap;
+  }
 
-    @media #{$phone} {
-      flex-direction: column;
-    }
+  .ideas {
+    flex-wrap: wrap;
   }
 
   .navigation {

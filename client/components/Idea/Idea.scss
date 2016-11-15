@@ -1,0 +1,55 @@
+$phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)";
+
+.Idea {
+  flex: 1 0 33%;
+  padding: 10px;
+
+  &.full {
+    flex: 2 0 66%;
+    .image {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .wrapper {
+    position: relative;
+    border-radius: 4px;
+    height: 310px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+
+    @media #{$phone} {
+      height: 120px;
+    }
+  }
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .image {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .8;
+    height: 100%;
+    z-index: 2;
+
+    @media #{$phone} {
+      height: auto;
+      width: 100%;
+    }
+  }
+}

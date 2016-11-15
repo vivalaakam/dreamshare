@@ -3,6 +3,7 @@ import Header from '../Header';
 import Block from '../Block';
 import HowItWork from '../HowItWork';
 import Partner from '../Partner';
+import Idea from '../Idea';
 import style from './App.scss';
 
 export default function App() {
@@ -56,9 +57,44 @@ export default function App() {
     }
   ];
 
+  const ideas = [
+    {
+      name: 'Sports and Activis',
+      image: 'sport.png'
+    },
+    {
+      name: 'Wellness and Health',
+      image: 'healath.png'
+    },
+    {
+      name: 'Extreme Sports and Expeditions',
+      image: 'extreme.png'
+    },
+    {
+      name: 'Games',
+      image: 'games.png'
+    },
+    {
+      name: 'Culture and Education',
+      image: 'culture.png',
+      full: true
+    },
+    {
+      name: 'Enjomet and Relaxation',
+      image: 'relax.png',
+      full: true
+    },
+    {
+      name: 'Trevelling',
+      image: 'travel.png'
+    }
+  ];
+
   const steps = () => howItWorks.map((step, i) => <HowItWork key={i} {...step} />);
 
   const partnerItems = () => partners.map((partner, i) => <Partner key={i} {...partner} />);
+
+  const ideasItem = () => ideas.map((idea, i) => <Idea key={i} {...idea} />);
 
   return (
     <div className={style.App}>
@@ -74,6 +110,11 @@ export default function App() {
         </div>
         <div className={style.navigation}>
           <button className={style.btn}>See other partners</button>
+        </div>
+      </Block>
+      <Block title="Discover holiday activity ideas">
+        <div className={style.ideas}>
+          {ideasItem()}
         </div>
       </Block>
     </div>
