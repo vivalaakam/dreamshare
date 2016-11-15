@@ -16,7 +16,7 @@ module.exports = {
     publicPath: '/'
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['.js', '.jsx']
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -31,7 +31,7 @@ module.exports = {
       {
         test: /\.js?/,
         exclude: [/node_modules/],
-        loaders: ['babel']
+        loaders: ['babel-loader']
       },
       {
         test: webpackIsomorphicToolsPlugin.regular_expression('images'),

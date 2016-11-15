@@ -9,7 +9,6 @@ const webpackIsomorphicToolsPlugin = new WebpackIsomorphicToolsPlugin(assetsConf
 config.plugins.push(
   new ExtractTextPlugin('style.css'),
   new webpack.optimize.DedupePlugin(),
-  new webpack.optimize.OccurenceOrderPlugin(),
   new webpack.optimize.UglifyJsPlugin({
     compress: {
       warnings: false
@@ -21,12 +20,17 @@ config.plugins.push(
 config.module.loaders.push(
   {
     test: /\.scss$/,
-    loader: ExtractTextPlugin.extract('style-loader',
-      'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass-loader')
+    loader: ExtractTextPlugin.extract({
+      fallbackLoader: 'style-loader',
+      loader: ['css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]', 'sass-loader']
+    })
   },
   {
     test: /\.css$/,
-    loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+    loader: ExtractTextPlugin.extract({
+      fallbackLoader: 'style-loader',
+      loader: ['css-loader']
+    })
   }
 );
 

@@ -12,7 +12,6 @@ config.entry.unshift(
 );
 
 config.plugins.push(
-  new webpack.optimize.OccurenceOrderPlugin(),
   new webpack.HotModuleReplacementPlugin(),
   new webpack.NoErrorsPlugin(),
   webpackIsomorphicToolsPlugin.development()
@@ -21,11 +20,15 @@ config.plugins.push(
 config.module.loaders.push(
   {
     test: /\.scss$/,
-    loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]!sass'
+    loader: [
+      'style-loader',
+      'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+      'sass-loader'
+    ]
   },
   {
     test: /\.css$/,
-    loader: 'style!css'
+    loader: ['style-loader', 'css-loader']
   }
 );
 
