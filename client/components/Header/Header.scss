@@ -96,20 +96,4 @@ $phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px)
       font-size: 18px;
     }
   }
-
-  .btn {
-    border: 1px solid #FF4E50;
-    background-color: #FF4E50;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    padding: 11px 23px;
-    border-radius: 20px;
-    &:hover {
-      cursor: pointer;
-    }
-    &:focus {
-      outline: none;
-    }
-  }
 }

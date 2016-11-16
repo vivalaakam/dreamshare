@@ -4,6 +4,8 @@ import Block from '../Block';
 import HowItWork from '../HowItWork';
 import Partner from '../Partner';
 import Idea from '../Idea';
+import Interests from '../Interests';
+import { Btn } from '../UI';
 import style from './App.scss';
 
 export default function App() {
@@ -109,13 +111,16 @@ export default function App() {
           {partnerItems()}
         </div>
         <div className={style.navigation}>
-          <button className={style.btn}>See other partners</button>
+          <Btn inverted>See other partners</Btn>
         </div>
       </Block>
       <Block title="Discover holiday activity ideas">
         <div className={style.ideas}>
           {ideasItem()}
         </div>
+      </Block>
+      <Block title="Crate your holiday activity">
+        <Interests />
       </Block>
     </div>
   );

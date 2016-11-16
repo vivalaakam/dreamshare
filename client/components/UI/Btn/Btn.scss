@@ -1,0 +1,22 @@
+.Btn {
+  border: 2px solid #FF4E50;
+  background-color: #FF4E50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding: 11px 23px;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 50px;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+
+  &.inverted {
+    background-color: transparent;
+    color: #FF4E50;
+  }
+}
