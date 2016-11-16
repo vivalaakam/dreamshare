@@ -1,0 +1,65 @@
+$phone: "only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)";
+
+.Footer {
+  position: relative;
+  margin-top: 100px;
+  border-top: 2px solid #FF4E50;
+  height: 258px;
+
+  .wrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+
+    @media #{$phone} {
+      text-align: center;
+      flex-direction: column;
+    }
+  }
+
+  .column {
+    flex: 1 0 0;
+    padding: 10px;
+  }
+
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FF4E50;
+  }
+
+  .title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    text-align: right;
+    @media #{$phone} {
+      text-align: center;
+    }
+    img {
+      width: 110px;
+    }
+  }
+
+  .list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    li {
+      font-size: 14px;
+      line-height: 26px;
+      color: #999999;
+      letter-spacing: 0;
+      @media #{$phone} {
+        display: inline-block;
+        margin-right: 20px;
+      }
+    }
+  }
+}

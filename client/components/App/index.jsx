@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import Block from '../Block';
 import HowItWork from '../HowItWork';
 import Partner from '../Partner';
@@ -122,6 +123,7 @@ export default function App() {
       <Block title="Crate your holiday activity">
         <Interests />
       </Block>
+      <Footer />
     </div>
   );
 }
